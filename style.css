@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#1c2833 ,#7f8c8d);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    padding: 15px;
+    background: linear-gradient(#2e4053);
+    color: white;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left a {
+    font-size: 35px;
+    color: rgb(149, 149, 210);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+.content {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+}
+
+.details {
+    /*background-color: #3b6c8d;*/
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    color: white;
+}
+
+.details h2, .details h4 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.details h2 {
+    font-size: 50px;
+    color: lightblue;
+}
+
+.details h4 {
+    font-size: 30px;
+}
+
+.details p {
+    font-size: 20px;
+    color: black;
+    color: whitesmoke;
+}
+    
+
+.details button {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.image img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.box {
+    margin: 50px auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.box p {
+    text-align: justify;
+    color: white;
+}
+
+.box h2:hover {
+    background-color: bisque;
+}
+.box2{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    
+}
+.box2 h3{
+    font-size: 30px;
+    
+}
+
+.cards{
+    width: 500px;
+    margin-left: 520px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*background-color: aqua;*/
+    
+}
+.cards .card1{
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+    color: lightcyan;
+    margin: 15px 15px;
+    border-radius: 5px solid black;
+    background: linear-gradient(#2e4053,#5f6a6a);
+    
+
+}
+.cards .card2{
+    background: linear-gradient(#2e4053,#5f6a6a);
+    margin: 15px 15px;
+    border-radius: 5px solid black;
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+    color: lightcyan;
+    
+    
+}
+.cards .card3{
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+    color: lightcyan;
+    margin: 15px 15px;
+    border-radius: 5px solid black;
+    background: linear-gradient(#2e4053,#5f6a6a);
+    
+
+}
+.cards .card4{
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+    color: lightcyan;
+    margin: 15px 15px;
+    border-radius: 5px solid black;
+    background: linear-gradient(#2e4053,#5f6a6a);
+    
+
+}
+
+.footer {
+    background: linear-gradient(#2e4053);
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+    color:black;
+    font-size: 20px;
+}
+
+.fa-facebook {
+    font-size: 20px;
+    color: blue;
+}
+
+.fa-square-instagram {
+    font-size: 20px;
+    color: rgb(163, 60, 77);
+}
+
+.fa-square-twitter {
+    font-size: 20px;
+    color: rgb(41, 123, 156);
+}
+
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details, .image {
+        max-width: 100%;
+    }
+
+    .details button {
+        width: 100%;
+    }
+    .box2{
+        margin-left: 0px;
+    }
+    .cards{
+        flex-direction: column;
+        margin-left: 0px;
+
+    }
+    
+}
+
+@media screen and (max-width: 460px) {
+    .navdiv {
+        flex-direction: column;
+        
+    }
+    .navdiv ul{
+        flex-direction: row;
+    }
+
+    .content {
+        margin-top:
+    }
+}

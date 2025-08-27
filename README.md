@@ -21,8 +21,5 @@ The website includes the following sections:
  Note: This is a static website, so there is *no backend connection*.  
 
 
-Live at:- 
-
-
-│── js/               # JavaScript files
+Live at:-  https://divya5797.github.io/Portfolio/
 

@@ -1,4 +1,4 @@
-This is my personal portfolio website built using *HTML, CSS, and JavaScript*.It is also responsive.
+This is my personal portfolio website built using *HTML, CSS*.It is also responsive.
 It showcases my profile, background, and interests, and serves as a way to connect with others.  
 
 About the Project  
@@ -14,9 +14,7 @@ The website includes the following sections:
 
   
 - *CSS3* for styling and responsiveness
-
-  
-- *JavaScript* for basic interactivity  
+ 
 
  Note: This is a static website, so there is *no backend connection*.  
 
